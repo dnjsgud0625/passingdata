@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B09F0CB28D0B9DE007B11AE /* SegueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B09F0CA28D0B9DE007B11AE /* SegueDetailViewController.swift */; };
 		9BC7629528CA096B002E1D4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7629428CA096B002E1D4D /* AppDelegate.swift */; };
 		9BC7629728CA096B002E1D4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7629628CA096B002E1D4D /* SceneDelegate.swift */; };
 		9BC7629928CA096B002E1D4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7629828CA096B002E1D4D /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B09F0CA28D0B9DE007B11AE /* SegueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueDetailViewController.swift; sourceTree = "<group>"; };
 		9BC7629128CA096B002E1D4D /* Passing Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Passing Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC7629428CA096B002E1D4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BC7629628CA096B002E1D4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				9BC7629828CA096B002E1D4D /* ViewController.swift */,
 				9BC762C628CA0AFE002E1D4D /* DetailViewController.swift */,
 				9BC762C728CA0AFE002E1D4D /* DetailViewController.xib */,
+				9B09F0CA28D0B9DE007B11AE /* SegueDetailViewController.swift */,
 				9BC7629A28CA096B002E1D4D /* Main.storyboard */,
 				9BC7629D28CA096F002E1D4D /* Assets.xcassets */,
 				9BC7629F28CA096F002E1D4D /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			files = (
 				9BC7629928CA096B002E1D4D /* ViewController.swift in Sources */,
 				9BC7629528CA096B002E1D4D /* AppDelegate.swift in Sources */,
+				9B09F0CB28D0B9DE007B11AE /* SegueDetailViewController.swift in Sources */,
 				9BC7629728CA096B002E1D4D /* SceneDelegate.swift in Sources */,
 				9BC762C828CA0AFE002E1D4D /* DetailViewController.swift in Sources */,
 			);

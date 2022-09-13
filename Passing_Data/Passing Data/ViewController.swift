@@ -16,6 +16,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segwayDetail" {
+            if let detailVC = segue.destination as? SegueDetailViewController {
+                detailVC.dateString = "abcd"
+                //화면에 나올 준비가 되지 않은 상태에서 iboutlet에 접근하면 크래쉬가 일어남
+            }
+        }
+    }
 
     @IBAction func MoveToDetail(_ sender: Any) {
         let detailVC = DetailViewController(nibName: "DetailViewController", bundle: nil)
